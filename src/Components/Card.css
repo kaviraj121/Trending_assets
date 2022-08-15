@@ -1,0 +1,50 @@
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.cards{
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.card_body{
+    width: 190.74px;
+    height: 350.08px;
+    margin-top: 65px;
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+        backdrop-filter: blur(100px);
+}
+
+.card_image{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 75px;
+    border-radius: 50%;
+    
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+        backdrop-filter: blur(100px);
+
+}
+
+.card_title_image{
+    position: absolute;
+        width: 45.83px;
+        height: 45.84px;
+        left: 12px;
+        top: 10px;
+        border-radius: 50%;
+        
+       
+}
+
+.popular_pair_images img {
+    width: 22px;
+        height: 22px;
+        border-radius: 50%;
+}
