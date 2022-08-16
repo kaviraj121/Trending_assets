@@ -1,6 +1,6 @@
 import "./App.css";
 import Card from "./Components/Card";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 import axios from "axios";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className=" App grid grid-flow-col auto-cols-max ">
       {coins.map((coin) => {
         return <Card useData={coin} />;
       })}

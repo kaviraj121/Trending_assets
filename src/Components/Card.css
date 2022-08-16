@@ -5,46 +5,196 @@
 .green{
     color: green;
 }
-
 .cards{
-    align-items: center;
     text-align: center;
-    padding-top: 10px;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 20px;
     
 }
-.card_body{
-    width: 190.74px;
-    height: 350.08px;
-    margin-top: 65px;
-    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
-        backdrop-filter: blur(100px);
-}
-
 .card_image{
     position: absolute;
-    height: 70px;
-    width: 70px;
-    left: 75px;
+    width: 65px;
+    height: 65px;
+    margin-left: 7px;
+    top: -34px;
     border-radius: 50%;
-    
     background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
         backdrop-filter: blur(100px);
-
 }
 
 .card_title_image{
     position: absolute;
-        width: 45.83px;
-        height: 45.84px;
-        left: 12px;
-        top: 10px;
+    height: 40.84px;
+    left: 12px;
+    top: 12px;
+        width: 49.84;
         border-radius: 50%;
-        
        
 }
 
-.popular_pair_images img {
-    width: 22px;
-        height: 22px;
+.card_body{
+    position: relative;
+    width: 170.74px;
+     height: 283.08px;
+     border-radius: 10px;
+         background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+        backdrop-filter: blur(100px);
+}
+.half-circle {
+    width: 80px;
+    height: 37px;
+    position: absolute;
+    left: 50%;
+    top: -1px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgba(46, 49, 73, 0.1);
+    border-left: 1px solid rgba(46, 49, 73, 0.1);
+    border-right: 1px solid rgba(46, 49, 73, 0.1);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: #14172B;
+    
+}
+
+.card_title{
+    position:absolute;
+    height: 25px;
+    width: 165px;
+    left: -45px;
+    
+
+    margin-top: 33px;
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 31px;
+        /* identical to box height, or 258% */
+    
+        
+    
+        color: #737BAE;
+    
+        opacity: 0.9;
+}
+
+.card_price{
+    position:absolute;
+    left: -37px;
+    box-sizing: border-box;
+        width: 150px;
+        height: 35px;
+        background: #14172B;
+        border-radius: 17px;
+        top: 80px;
+        padding-left: 39px;
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 31px;
+        /* identical to box height, or 194% */
+        text-align: center;
+        /* Secondary/Blue 000 */
+        color: #ECF0FF;
+        opacity: 0.9;
+}
+
+.card_price span{
+       margin-left: 3px;
+}
+
+.card_price_heading{
+    position:absolute;
+    top: 116px;
+    left: 21px;
+    font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 31px;
+        /* identical to box height, or 258% */
+    
+        text-align: center;
+    
+        color: #5A5F7D;
+    
+        opacity: 0.9;
+}
+
+.card_tvl{
+    position:absolute;
+    top: 150px;
+    left: -44px;
+    box-sizing: border-box;
+        width: 150px;
+        height: 35px;
+        background: #14172B;
+        border-radius: 17px;
+        margin-left: 9px;
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 31px;
+        /* identical to box height, or 194% */
+        text-align: center;
+        /* Secondary/Blue 000 */
+        color: #ECF0FF;
+        opacity: 0.9;
+}
+
+.card_tvl_heading{
+    position: absolute;
+    top: 185px;
+    left: 21px;
+    font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 31px;
+        /* identical to box height, or 258% */
+    
+        text-align: center;
+    
+        color: #5A5F7D;
+    
+        opacity: 0.9;
+}
+.popular_pair_images{
+    position:absolute;
+    top: 220px;
+    left: -47px;
+        width: 78px;
+        height: 30px;
+        margin-left: 46px;
+        background: #14172B;
+        border-radius: 29.5px;
+        
+}
+.popular_pair_images img{
+    height: 20.6px;
+        width: 20.6px;
         border-radius: 50%;
+        margin-right: 5px;
+        margin-top: 4.5px;
+}
+
+.popular_pair_heading{
+    position: absolute;
+    font-family: 'Tomorrow';
+    top: 249px;
+    left: 6px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 31px;
+        /* identical to box height, or 258% */
+    
+        text-align: center;
+    
+        color: #5A5F7D;
+    
+        opacity: 0.9;
 }
