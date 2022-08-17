@@ -2,6 +2,7 @@ import "./App.css";
 import Card from "./Components/Card";
 import { useState, useEffect, Fragment } from "react";
 import axios from "axios";
+import Titlelogo from "./Components/Titlelogo";
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -18,11 +19,14 @@ function App() {
   }, []);
 
   return (
-    <div className=" App grid grid-flow-col auto-cols-max ">
-      {coins.map((coin) => {
-        return <Card useData={coin} />;
-      })}
-    </div>
+    <>
+      <Titlelogo />
+      <div className=" App grid grid-flow-col auto-cols-max ">
+        {coins.map((coin) => {
+          return <Card useData={coin} />;
+        })}
+      </div>
+    </>
   );
 }
 
