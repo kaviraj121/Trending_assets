@@ -8,4 +8,4 @@
 
 4 For styling uses [Tailwind](https://tailwindcss.com/) and [css](https://developer.mozilla.org/en-US/docs/Web/CSS).
 
-5 [netlify link](https://capable-jelly-cf5fb1.netlify.app)
+5 [ Assesment deploy netlify link](https://capable-jelly-cf5fb1.netlify.app)
